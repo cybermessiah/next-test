@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="max-w-7xl m-auto p-8">
+        <footer className="max-w-6xl m-auto p-8">
             <div className="sm:flex mb-4 justify-center gap-2">
                 <div className="sm:w-1/4 h-auto">
                     <div className="uppercase font-extrabold mb-2">

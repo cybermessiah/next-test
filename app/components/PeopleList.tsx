@@ -19,7 +19,7 @@ const PeopleList = async () => {
     const persons = await loadPeople()
     return (
         <>
-            <h3 className="text-3xl uppercase font-bold text-center">
+            <h3 className="text-3xl uppercase font-bold text-center pt-6">
                 People List
             </h3>
             <div className="lg:px-5 lg:py-12">
