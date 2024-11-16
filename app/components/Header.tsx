@@ -14,12 +14,6 @@ export default function Header() {
                 </div>
                 <div>
                     <Link
-                        href="/about"
-                        className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2"
-                    >
-                        About
-                    </Link>
-                    <Link
                         href="/services"
                         className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2"
                     >
