@@ -15,7 +15,7 @@ async function loadPeople(): Promise<IPeople[]> {
   return dataToDisplay;
 }
 
-const PostList = async () => {
+const PeopleList = async () => {
   const persons = await loadPeople();
   return (
     <div className="post-list">
@@ -30,4 +30,4 @@ const PostList = async () => {
   );
 };
 
-export default PostList;
+export default PeopleList;
